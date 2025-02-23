@@ -43,3 +43,31 @@ The packet sniffer uses the `scapy` library to capture and analyze network packe
    ```bash
 git clone https://github.com/yourusername/network-packet-sniffer.git
 cd network-packet-sniffer
+
+
+ 3. **Run the Script**:
+   ```bash
+sudo python3 packet_sniffer.py
+
+
+
+4. **Specify the Network Interface**:
+When prompted, enter the network interface you want to sniff (e.g., eth0, wlan0).
+
+The tool will start capturing and displaying packets.
+```bash
+$ sudo python3 packet_sniffer.py
+Enter the network interface to sniff (e.g., eth0, wlan0): wlan0
+[*] Starting packet capture on wlan0...
+
+[+] Packet Captured:
+    Source IP: 192.168.1.100
+    Destination IP: 192.168.1.1
+    Protocol: TCP
+    Payload: b'GET / HTTP/1.1\r\nHost: example.com\r\n\r\n'
+
+[+] Packet Captured:
+    Source IP: 192.168.1.1
+    Destination IP: 192.168.1.100
+    Protocol: UDP
+    Payload: b'\x00\x01\x02\x03'
