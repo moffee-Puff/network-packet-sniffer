@@ -41,13 +41,13 @@ The packet sniffer uses the `scapy` library to capture and analyze network packe
 
  2. **Clone the Repository**:
     ```bash
-git clone https://github.com/yourusername/network-packet-sniffer.git
-cd network-packet-sniffer
+ git clone https://github.com/yourusername/network-packet-sniffer.git
+ cd network-packet-sniffer
 
 
  3. **Run the Script**:
     ```bash
-sudo python3 packet_sniffer.py
+ sudo python3 packet_sniffer.py
 
 
 
