@@ -40,13 +40,13 @@ The packet sniffer uses the `scapy` library to capture and analyze network packe
    pip3 install scapy
 
  2. **Clone the Repository**:
-   ```bash
+    ```bash
 git clone https://github.com/yourusername/network-packet-sniffer.git
 cd network-packet-sniffer
 
 
  3. **Run the Script**:
-   ```bash
+    ```bash
 sudo python3 packet_sniffer.py
 
 
@@ -55,7 +55,7 @@ sudo python3 packet_sniffer.py
 When prompted, enter the network interface you want to sniff (e.g., eth0, wlan0).
 
 The tool will start capturing and displaying packets.
-```bash
+   ```bash
 $ sudo python3 packet_sniffer.py
 Enter the network interface to sniff (e.g., eth0, wlan0): wlan0
 [*] Starting packet capture on wlan0...
